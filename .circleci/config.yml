@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: /dockerizando
     docker:
-      - image: docker:20.10.13
+      - image: docker:19.03.15
     steps:
       - checkout
       - setup_remote_docker
