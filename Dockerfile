@@ -1,4 +1,4 @@
-FROM python:alpine3.14
+FROM python:3.9.11
 
 RUN pip install Flask==0.11.1 redis==2.10.5
 
