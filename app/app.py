@@ -11,7 +11,7 @@ def mainpage():
 
 	key = default_key
 	if 'key' in request.form:
---	    key = request.form['key']
+        	key = request.form['key']
 
 	if request.method == 'POST' and request.form['submit'] == 'save':
 		cache.set(key, request.form['cache_value'])
