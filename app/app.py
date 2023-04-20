@@ -17,6 +17,7 @@ def mainpage():
 		cache.set(key, request.form['cache_value'])
 
 	cache_value = None;
+	cache = null;
 	if cache.get(key):
 		cache_value = cache.get(key).decode('utf-8')
 
